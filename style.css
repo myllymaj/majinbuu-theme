@@ -1,0 +1,80 @@
+/*
+Theme Name: myllymaj-theme
+Theme URI: https://example.com
+Description: Mitt tema för projekt 2.
+Author: Jakob Myllymäki
+Author URI: http://cgi.arcada.fi/~myllymaj
+Template: storefront
+Version: 1.0
+Text Domain: myllymaj-theme
+*/
+* {
+    font-family: 'Orbitron', sans-serif;
+    letter-spacing: 3px;
+
+}
+body{
+    
+    background: rgb(0,102,0);
+background: linear-gradient(0deg, rgba(0,102,0,1) 0%, rgba(0,255,0,1) 100%);
+}
+.site-header {
+    background: rgb(0,102,0);
+background: linear-gradient(0deg, rgba(0,102,0,1) 0%, rgba(0,255,0,1) 100%);
+    
+}
+.site-title a {
+    color: #00ff00;
+    text-shadow: 2px 2px #000000;
+    font-size: 75px;
+
+}
+.site-title a:hover{
+    color: #ffffff;
+    text-shadow: 2px 2px #000000;
+}
+.site-branding {
+    font-size: 25px;
+}
+p.site-description {
+    color: #00ff00;
+    text-shadow: 2px 2px #000000;
+    font-size: 25px;
+    
+}
+.site-footer {
+    background: rgb(0,102,0);
+background: linear-gradient(0deg, rgba(0,102,0,1) 0%, rgba(0,255,0,1) 100%);
+color: #00ff00;
+}
+.site-footer a:not(.button):not(.components-button) {
+    color: #00ff00;
+    text-shadow: 2px 2px #000000;
+}
+.site-header ul.menu li.current-menu-item > a {
+    color: #ffffff;
+    text-shadow: 2px 2px #000000;
+}
+.main-navigation {
+    font-size: 20px;
+    font-weight: bold;
+}
+.main-navigation ul li a {
+    color: #00ff00;
+    text-shadow: 2px 2px #000000;
+    
+}
+
+ul.menu li a {
+    color: #ffffff;
+    font-size: 20px;
+}
+h1,h2,h3,p, a{
+    color: white;
+    text-shadow: 2px 2px #000000;
+
+}
+body, .secondary-navigation a {
+    color: #000000;
+    font-size: 20px;
+}
