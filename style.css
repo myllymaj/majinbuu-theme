@@ -17,7 +17,7 @@ Text Domain: myllymaj-theme
 body {
 
     background: rgb(0, 102, 0);
-    background: linear-gradient(0deg, rgba(0, 102, 0, 1) 0%, rgb(255, 255, 255) 100%);
+    background: linear-gradient(0deg, #00660073 0%, rgba(255, 255, 255, 0.603) 100%);
 }
 
 .site-header {
@@ -50,8 +50,9 @@ p.site-description {
 }
 
 .site-footer {
-    background: rgb(0, 102, 0);
-    background: linear-gradient(0deg, #ffffff17 100%, #006600 0%);
+
+
+    background: linear-gradient(0deg, rgb(255, 255, 255) 0%, rgba(0, 0, 0, 0.589) 100%);
     color: #00ff00;
     text-shadow: 1px 1px #000000;
     text-align: center;
@@ -80,8 +81,15 @@ p.site-description {
 }
 
 ul.menu li a {
-    color: #d0ff00;
+    color: #00ff00;
     font-size: 20px;
+
+
+}
+
+ul.menu li a:hover {
+    background-color: #eeff00a9;
+
 
 
 }
@@ -92,7 +100,8 @@ a {
     text-align: center;
 
 }
-p{
+
+p {
     color: rgb(49, 49, 49);
     text-shadow: 1px 1px #000000;
     text-align: center;
@@ -101,11 +110,11 @@ p{
 body, .secondary-navigation a {
     color: #000000;
     font-size: 20px;
-    
+
 }
 
 a {
-    color: #0004ff;
+    color: #0e5300;
 }
 
 a:focus {
@@ -121,7 +130,7 @@ h1 {
 
 .col-full {
 
-
+    background-color: #00000063;
     margin: auto;
     padding: auto;
 
@@ -159,35 +168,51 @@ h3 {
     padding: 0;
     font-size: 30px;
 }
+
 .site-content {
     text-align: center;
 }
-.site-content li,h2 {
+
+.site-content li, h2 {
     text-align: left;
 }
+
 .hentry {
     text-align: left;
 }
-.hentry p  {
+
+.hentry p {
     text-align: left;
 }
+
 .ol-layer {
-    width:100px;
+    width: 100px;
     height: 50px;
 }
+
 h2 {
     color: #d0ff00;
     text-shadow: 1px 1px #000000;
 }
+
 .instagram-media {
     min-height: 500px;
     max-height: 600px;
     overflow-y: scroll;
 }
+
 .widget-title {
     color: #d0ff00;
     text-shadow: 1px 1px #000000;
 }
+
 #wpforms-form-135 {
     background-color: #8b8b8b6b;
+}
+
+.woocommerce-mini-cart__empty-message {
+    background-color: white;
+}
+#menu-menu {
+    background-color: #00000063;
 }
