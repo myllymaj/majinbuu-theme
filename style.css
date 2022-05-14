@@ -10,71 +10,184 @@ Text Domain: myllymaj-theme
 */
 * {
     font-family: 'Orbitron', sans-serif;
-    letter-spacing: 3px;
+    letter-spacing: 1px;
 
 }
-body{
-    
-    background: rgb(0,102,0);
-background: linear-gradient(0deg, rgba(0,102,0,1) 0%, rgba(0,255,0,1) 100%);
+
+body {
+
+    background: rgb(0, 102, 0);
+    background: linear-gradient(0deg, rgba(0, 102, 0, 1) 0%, rgb(255, 255, 255) 100%);
 }
+
 .site-header {
-    background: rgb(0,102,0);
-background: linear-gradient(0deg, rgba(0,102,0,1) 0%, rgba(0,255,0,1) 100%);
-    
+    background: rgb(0, 102, 0);
+    background: linear-gradient(0deg, rgba(0, 102, 0, 1) 0%, rgba(0, 255, 0, 1) 100%);
+
 }
+
 .site-title a {
     color: #00ff00;
     text-shadow: 2px 2px #000000;
     font-size: 75px;
 
 }
-.site-title a:hover{
+
+.site-title a:hover {
     color: #ffffff;
     text-shadow: 2px 2px #000000;
 }
+
 .site-branding {
     font-size: 25px;
 }
+
 p.site-description {
     color: #00ff00;
     text-shadow: 2px 2px #000000;
     font-size: 25px;
-    
+
 }
+
 .site-footer {
-    background: rgb(0,102,0);
-background: linear-gradient(0deg, rgba(0,102,0,1) 0%, rgba(0,255,0,1) 100%);
-color: #00ff00;
-}
-.site-footer a:not(.button):not(.components-button) {
+    background: rgb(0, 102, 0);
+    background: linear-gradient(0deg, #ffffff17 100%, #006600 0%);
     color: #00ff00;
+    text-shadow: 1px 1px #000000;
+    text-align: center;
+
+}
+
+.site-footer a:not(.button):not(.components-button) {
+    color: #d0ff00;
     text-shadow: 2px 2px #000000;
 }
-.site-header ul.menu li.current-menu-item > a {
+
+.site-header ul.menu li.current-menu-item>a {
     color: #ffffff;
     text-shadow: 2px 2px #000000;
 }
+
 .main-navigation {
     font-size: 20px;
     font-weight: bold;
 }
+
 .main-navigation ul li a {
     color: #00ff00;
     text-shadow: 2px 2px #000000;
-    
+
 }
 
 ul.menu li a {
-    color: #ffffff;
+    color: #d0ff00;
     font-size: 20px;
-}
-h1,h2,h3,p, a{
-    color: white;
-    text-shadow: 2px 2px #000000;
+
 
 }
+
+a {
+    color: white;
+    text-shadow: 1px 1px #000000;
+    text-align: center;
+
+}
+p{
+    color: rgb(49, 49, 49);
+    text-shadow: 1px 1px #000000;
+    text-align: center;
+}
+
 body, .secondary-navigation a {
     color: #000000;
     font-size: 20px;
+    
+}
+
+a {
+    color: #0004ff;
+}
+
+a:focus {
+    outline: 0;
+}
+
+h1 {
+    color: #00ff00;
+    text-shadow: 1px 1px #000000;
+    text-decoration: underline;
+
+}
+
+.col-full {
+
+
+    margin: auto;
+    padding: auto;
+
+
+}
+
+button.menu-toggle {
+    background-color: #00ff00;
+    color: rgb(0, 0, 0);
+}
+
+ol {
+    list-style: none;
+}
+
+.entry-title {
+    color: rgb(49, 49, 49);
+    text-decoration: none;
+
+}
+
+.wp-block-button__link:not(.has-background) {
+    background-color: #00ff00;
+
+}
+
+h3 {
+    text-align: center;
+    font-size: 50px;
+    text-shadow: 1px 1px #00ff00;
+    background-color: #ffffff5e;
+}
+
+.site-info {
+    padding: 0;
+    font-size: 30px;
+}
+.site-content {
+    text-align: center;
+}
+.site-content li,h2 {
+    text-align: left;
+}
+.hentry {
+    text-align: left;
+}
+.hentry p  {
+    text-align: left;
+}
+.ol-layer {
+    width:100px;
+    height: 50px;
+}
+h2 {
+    color: #d0ff00;
+    text-shadow: 1px 1px #000000;
+}
+.instagram-media {
+    min-height: 500px;
+    max-height: 600px;
+    overflow-y: scroll;
+}
+.widget-title {
+    color: #d0ff00;
+    text-shadow: 1px 1px #000000;
+}
+#wpforms-form-135 {
+    background-color: #8b8b8b6b;
 }
