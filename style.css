@@ -130,7 +130,7 @@ h1 {
 
 .col-full {
 
-    background-color: #00000063;
+    background-color: #00000025;
     margin: auto;
     padding: auto;
 
@@ -213,6 +213,7 @@ h2 {
 .woocommerce-mini-cart__empty-message {
     background-color: white;
 }
+
 #menu-menu {
     background-color: #00000063;
 }
